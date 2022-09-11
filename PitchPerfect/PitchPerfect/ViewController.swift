@@ -14,6 +14,9 @@ class ViewController: UIViewController {
         print("Record Button was Pressed.")
         recordingLabel.text = "Recording in Progress"
     }
+    @IBAction func stopRecording(_ sender: Any) {
+        print("Stop Recording Button was Pressed.")
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
