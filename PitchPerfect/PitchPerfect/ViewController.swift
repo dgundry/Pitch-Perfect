@@ -9,6 +9,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var recordButton: UIButton!
+    @IBOutlet weak var stopRecordinButton: UIButton!
     @IBOutlet weak var recordingLabel: UILabel!
     @IBAction func recordAudio(_ sender: Any) {
         print("Record Button was Pressed.")
