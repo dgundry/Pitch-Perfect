@@ -29,18 +29,16 @@
                                     <action selector="recordAudio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EbM-Ew-e4W"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l7F-01-pn8">
-                                <rect key="frame" x="125" y="510" width="142" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l7F-01-pn8">
+                                <rect key="frame" x="124" y="499.66666666666674" width="142" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Stop Recording"/>
                                 <connections>
                                     <action selector="stopRecording:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wDf-iN-AsP"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tap to Record" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dmP-g7-sMO">
-                                <rect key="frame" x="143" y="460" width="106" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap to Record" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dmP-g7-sMO">
+                                <rect key="frame" x="142" y="449.66666666666669" width="106" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -50,7 +48,11 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="m4O-4i-Pb9" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="5N3-vP-AQv"/>
+                            <constraint firstItem="l7F-01-pn8" firstAttribute="centerX" secondItem="dmP-g7-sMO" secondAttribute="centerX" id="8vH-zm-GNT"/>
+                            <constraint firstItem="dmP-g7-sMO" firstAttribute="centerX" secondItem="m4O-4i-Pb9" secondAttribute="centerX" id="909-4V-hqN"/>
+                            <constraint firstItem="dmP-g7-sMO" firstAttribute="top" secondItem="m4O-4i-Pb9" secondAttribute="bottom" constant="10" id="VaN-DZ-JRp"/>
                             <constraint firstItem="m4O-4i-Pb9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cz9-MK-jdY"/>
+                            <constraint firstItem="l7F-01-pn8" firstAttribute="top" secondItem="dmP-g7-sMO" secondAttribute="bottom" constant="29" id="h73-cE-KxZ"/>
                         </constraints>
                     </view>
                     <connections>
