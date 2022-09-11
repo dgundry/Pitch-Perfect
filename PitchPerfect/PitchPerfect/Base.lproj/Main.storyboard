@@ -50,6 +50,9 @@
                             <constraint firstItem="m4O-4i-Pb9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cz9-MK-jdY"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="recordingLabel" destination="dmP-g7-sMO" id="oje-90-1BX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
