@@ -25,7 +25,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l7F-01-pn8">
-                                <rect key="frame" x="163" y="560" width="64" height="64"/>
+                                <rect key="frame" x="163" y="559.66666666666663" width="64" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="64" id="4rF-Me-FKW"/>
                                     <constraint firstAttribute="height" constant="64" id="oSN-lS-cmw"/>
@@ -34,6 +34,7 @@
                                 <state key="normal" image="Stop"/>
                                 <connections>
                                     <action selector="stopRecording:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wDf-iN-AsP"/>
+                                    <segue destination="6Wc-Yl-UCs" kind="show" id="YFC-do-4mT"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap to Record" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dmP-g7-sMO">
@@ -65,6 +66,22 @@
             </objects>
             <point key="canvasLocation" x="950.76923076923072" y="3.5545023696682461"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="X75-Yc-r5M">
+            <objects>
+                <viewController id="6Wc-Yl-UCs" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9J5-M1-C0Q">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="aik-Qi-Usk"/>
+                        <color key="backgroundColor" systemColor="systemMintColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ZpQ-z4-Eil"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KG9-TV-3ea" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1962" y="4"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="Um2-Fk-uIJ">
             <objects>
@@ -89,6 +106,9 @@
         <image name="Stop" width="155" height="155"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemMintColor">
+            <color red="0.0" green="0.7803921568627451" blue="0.74509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
