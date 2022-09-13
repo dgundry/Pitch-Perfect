@@ -66,17 +66,17 @@
             </objects>
             <point key="canvasLocation" x="950.76923076923072" y="3.5545023696682461"/>
         </scene>
-        <!--View Controller-->
+        <!--Play Sounds View Controller-->
         <scene sceneID="X75-Yc-r5M">
             <objects>
-                <viewController id="6Wc-Yl-UCs" sceneMemberID="viewController">
+                <viewController id="6Wc-Yl-UCs" customClass="PlaySoundsViewController" customModule="PitchPerfect" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9J5-M1-C0Q">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="aik-Qi-Usk"/>
                         <color key="backgroundColor" systemColor="systemMintColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="ZpQ-z4-Eil"/>
+                    <navigationItem key="navigationItem" id="ZpQ-z4-Eil" customClass="Pla"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KG9-TV-3ea" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
