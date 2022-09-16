@@ -25,7 +25,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l7F-01-pn8">
-                                <rect key="frame" x="175" y="585.5" width="64" height="64"/>
+                                <rect key="frame" x="175" y="572.5" width="64" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="64" id="4rF-Me-FKW"/>
                                     <constraint firstAttribute="height" constant="64" id="oSN-lS-cmw"/>
@@ -51,7 +51,7 @@
                             <constraint firstItem="dmP-g7-sMO" firstAttribute="centerX" secondItem="m4O-4i-Pb9" secondAttribute="centerX" id="909-4V-hqN"/>
                             <constraint firstItem="dmP-g7-sMO" firstAttribute="top" secondItem="m4O-4i-Pb9" secondAttribute="bottom" constant="10" id="VaN-DZ-JRp"/>
                             <constraint firstItem="m4O-4i-Pb9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cz9-MK-jdY"/>
-                            <constraint firstItem="l7F-01-pn8" firstAttribute="top" secondItem="dmP-g7-sMO" secondAttribute="bottom" constant="29" id="h73-cE-KxZ"/>
+                            <constraint firstItem="l7F-01-pn8" firstAttribute="top" secondItem="dmP-g7-sMO" secondAttribute="bottom" constant="16" id="h73-cE-KxZ"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="gR1-1K-dnH"/>
